@@ -1,0 +1,27 @@
+
+{
+    "configurations": [
+        {
+            "name": "VD100_apps",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/work/yocto/tmp/work-shared/versal-generic-xcve2302/kernel-source/include",
+                "/work/yocto/tmp/work-shared/versal-generic-xcve2302/kernel-source/include/uapi",
+                "/work/yocto/tmp/work-shared/versal-generic-xcve2302/kernel-source/arch/arm64/include",
+                "/work/yocto/tmp/work-shared/versal-generic-xcve2302/kernel-source/arch/arm64/include/uapi",
+                "/work/yocto/tmp/work-shared/versal-generic-xcve2302/kernel-build-artifacts/include",
+                "/work/yocto/tmp/work-shared/versal-generic-xcve2302/kernel-build-artifacts/arch/arm64/include/generated",
+                "/work/yocto/tmp/work-shared/versal-generic-xcve2302/kernel-build-artifacts/arch/arm64/include/generated/uapi",
+                "/opt/vd100/sdk/sysroots/x86_64-amdedfsdk-linux/usr/include/",
+                "/work/yocto/tmp/sysroots-components/cortexa72-cortexa53/xrt/usr/include",
+                "/work/yocto/tmp/sysroots-components/cortexa72-cortexa53/xrt/usr/"
+            ],
+            "defines": [],
+            "compilerPath": "/opt/vd100/sdk/sysroots/x86_64-amdedfsdk-linux/usr/bin/aarch64-vd100-linux/aarch64-vd100-linux-gcc",
+            "cStandard": "c23",
+            "intelliSenseMode": "linux-gcc-arm64",
+            "cppStandard": "gnu++20"
+        }
+    ],
+   "version": 4
+}
