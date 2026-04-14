@@ -1,8 +1,8 @@
 # vd100-ps-ma-client
 
-**PS userspace XRT application — Moving Average crossover via AIE-ML v2 on XCVE2302**
+**PS userspace XRT application — Moving Average crossover via AIE-ML on XCVE2302**
 
-Cortex-A72 host application that drives the [`vd100-aie-pipeline`](https://github.com/adilsondias-engineer/vd100-aie-pipeline) hardware over XRT. Feeds price data to the AIE-ML v2 MA crossover kernel via HLS DMA kernels and reads BUY/SELL/HOLD signals from the output buffer.
+Cortex-A72 host application that drives the [`vd100-aie-pipeline`](https://github.com/adilsondias-engineer/vd100-aie-pipeline) hardware over XRT. Feeds price data to the AIE-ML MA crossover kernel via HLS DMA kernels and reads BUY/SELL/HOLD signals from the output buffer.
 
 Part of the [versal-ai-edge-vd100-linux](https://github.com/adilsondias-engineer/versal-ai-edge-vd100-linux) ecosystem — deployed as a Yocto recipe in [`meta-vd100_v3`](https://github.com/adilsondias-engineer/meta-vd100_v3).
 
